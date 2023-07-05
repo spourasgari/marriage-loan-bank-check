@@ -41,13 +41,13 @@ def send_telegram_notification(message):
     telegarm_sender.write(message)
 
     
-# Here, we check the banks' status each 60 seconds, and send a heartbeat notification every 6 hours.
-# We assume that depending on code's start time, the day will change after 12 hours. It is for safety and definitely can be improved
+# Here, we check the banks' status every 300 seconds, and send a heartbeat notification every 6 hours.
+# We assume that depending on code's start time, the day will change after 12 hours. It is written in this way for safety and definitely can be improved
 
 heart_beat_counter = 0
 day_break = []
 half_day_indicator = 0
-sleep_time = 60
+sleep_time = 300
 heart_beat_hours = 6
 
 send_telegram_notification("Loop Started...")
