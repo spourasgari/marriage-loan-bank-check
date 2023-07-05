@@ -9,4 +9,4 @@
  
 `pm2 start webpage_checker_vame_ezdevaj.py --watch`
 
-ممنون از [@pooyasa] (https://www.github.com/pooyasa) و [@HosseinlGholami] (https://www.github.com/HosseinlGholami) برای نوشتن پایه اصلی این کد و راهنمایی‌هاشون.
+ممنون از [@pooyasa](https://www.github.com/pooyasa) و [@HosseinlGholami](https://www.github.com/HosseinlGholami) برای نوشتن پایه اصلی این کد و راهنمایی‌هاشون.
