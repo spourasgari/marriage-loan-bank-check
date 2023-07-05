@@ -19,6 +19,8 @@ telegarm_sender = TelegramSender()
 # mellat_tehran = "https://vam.kandoocn.com/which-banks-is-open?bank=12&province=24"
 # pasargad_tehran = "https://vam.kandoocn.com/which-banks-is-open?bank=57&province=24"
 # tejarat_gilan = "https://vam.kandoocn.com/which-banks-is-open?bank=18&province=02"
+# General Template = "https://vam.kandoocn.com/which-banks-is-open?bank=p1&province=p2"
+# Main address: https://vam.kandoocn.com/which-banks-is-open
 # Add your desired banks' list as below:
 
 desired_banks = [('12','24','**** Mellat - Tehran ****'),('57','24','**** Pasargar - Tehran ****'),('18','02','**** Tejarat - Gilan ****')]
